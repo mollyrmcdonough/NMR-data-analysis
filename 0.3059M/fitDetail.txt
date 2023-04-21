@@ -1,0 +1,25 @@
+fitresult = 
+     General model:
+     fitresult(t) = A*exp(-t/t_2)
+     Coefficients (with 95% confidence bounds):
+       A =       1.453  (1.308, 1.598)
+       t_2 =       1.138  (0.9338, 1.342)
+gof = 
+           sse: 0.0535
+       rsquare: 0.9372
+           dfe: 12
+    adjrsquare: 0.9320
+          rmse: 0.0668
+fitresult = 
+     Linear model Poly1:
+     fitresult(x) = p1*x + p2
+       where x is normalized by mean 0.7686 and std 0.3608
+     Coefficients (with 95% confidence bounds):
+       p1 =     -0.3502  (-0.4071, -0.2933)
+       p2 =     -0.3145  (-0.3695, -0.2596)
+gof = 
+           sse: 0.1263
+       rsquare: 0.9315
+           dfe: 13
+    adjrsquare: 0.9262
+          rmse: 0.0986
